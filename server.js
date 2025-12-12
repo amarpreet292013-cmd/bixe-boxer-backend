@@ -12,7 +12,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // ==================== MONGODB ====================
-mongoose.connect("YOUR_MONGODB_ATLAS_URL")
+mongoose.connect("mongodb+srv://amarpreet292013_db_user:LNuyYatScxLKNcJU@cluster0.qjttupi.mongodb.net/bixe-boxer?retryWrites=true&w=majority")
 .then(()=>console.log("MongoDB connected"))
 .catch(err=>console.log(err));
 
